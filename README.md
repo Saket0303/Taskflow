@@ -115,6 +115,7 @@ Note: **Run migrations manually after docker compose up**
 ## 🔐 5. Test Credentials
 
 Email: test@example.com
+
 Password: password123
 
 ---
