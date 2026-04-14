@@ -80,8 +80,11 @@ Handler → Service → Repository → Database
 ### Steps
 
 git clone https://github.com/your-username/taskflow-saket
+
 cd taskflow-saket
+
 cp .env.example .env
+
 docker compose up --build
 
 ---
@@ -105,6 +108,7 @@ Response:
 
 migrate -path backend/migrations -database "postgres://postgres:postgres@localhost:5432/taskflow?sslmode=disable" up
 
+#Run migrations manually after docker compose up
 ---
 
 ## 🔐 5. Test Credentials
