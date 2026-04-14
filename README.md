@@ -108,7 +108,8 @@ Response:
 
 migrate -path backend/migrations -database "postgres://postgres:postgres@localhost:5432/taskflow?sslmode=disable" up
 
-#Run migrations manually after docker compose up
+Note: **Run migrations manually after docker compose up**
+
 ---
 
 ## 🔐 5. Test Credentials
