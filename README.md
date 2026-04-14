@@ -127,9 +127,13 @@ POST /auth/login
 ### Projects
 
 GET /projects
+
 POST /projects
+
 GET /projects/:id
+
 PATCH /projects/:id
+
 DELETE /projects/:id
 
 ---
@@ -137,8 +141,11 @@ DELETE /projects/:id
 ### Tasks
 
 GET /projects/:id/tasks
+
 POST /projects/:id/tasks
+
 PATCH /tasks/:id
+
 DELETE /tasks/:id
 
 ---
